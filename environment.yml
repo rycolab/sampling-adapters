@@ -1,0 +1,17 @@
+name: samp-adapter
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - tqdm
+  - pylint
+  - pandas
+  - jupyterlab
+  - matplotlib
+  - plotnine
+  - nltk
+  - pip
+  - pip:
+    - ipdb
